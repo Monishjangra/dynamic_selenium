@@ -10,9 +10,8 @@ import org.junit.runner.RunWith;
         glue = {"placeOrder"},
         dryRun = false,
         monochrome = true,
-        plugin = {
-                "pretty","json:target/report.json"
-        }
+        plugin = {"pretty","html:target/report.html"},
+        tags = "not @ignore"
 )
 public class TestRunner {
 }

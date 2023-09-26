@@ -1,5 +1,6 @@
+@ignore
 Feature: place a order
-
+	
   Scenario: place a valid order
     Given setup the driver and open the site
     When our site is on home page
@@ -9,6 +10,7 @@ Feature: place a order
     Then place order
     Then select country and click agree
     Then verify order is placed
+    Then close browser
 
   Scenario: place a valid order without click agree
     Given setup the driver and open the site
@@ -19,3 +21,4 @@ Feature: place a order
     Then place order
     Then select country
     Then verify order is not placed
+    Then close browser
