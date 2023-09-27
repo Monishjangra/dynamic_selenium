@@ -24,5 +24,5 @@ Feature: Search testing
 	|name    |
 	|abcd    |
 	|12345   |
-	|!@#$    |
+	|!@$%^   |
 	
